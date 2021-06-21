@@ -1,7 +1,6 @@
 ## Koikatsu x Handy plugin
 
-This Node server receives game data from the Koikatsu x Handy plugin and communicates with the Handy API to synchronize
-Handy strokes.
+This plugin sends game data to the KK Handy server in H scenes.
 
 ## Contents
 
