@@ -1,6 +1,6 @@
 ## Koikatsu x Handy plugin
 
-This plugin sends game data to the KK Handy server in H scenes.
+This plugin sends game data to the [KK Handy server](https://github.com/KarilChan/handy-koikatsu-server) in H scenes.
 [![Demo video](https://i.imgur.com/4uDn9eC.png)](https://www.youtube.com/watch?v=w1y0_ElPY-A "Demo video")
 
 ## Contents
@@ -19,7 +19,7 @@ This plugin sends game data to the KK Handy server in H scenes.
 ## Installation
 
 * Get the [latest release](https://github.com/KarilChan/KKHandyPlugin/releases) of this plugin
-* Set up the [KK Handy server](https://github.com/KarilChan/handy-koikatsu-serve)
+* Set up the [KK Handy server](https://github.com/KarilChan/handy-koikatsu-server)
 
 ### Config
 
