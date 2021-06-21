@@ -364,4 +364,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
-/BepTest3.5/Libs/Assembly-CSharp.dll
+/KKHandyPlugin/Libs/Assembly-CSharp.dll

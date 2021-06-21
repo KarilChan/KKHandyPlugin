@@ -69,19 +69,6 @@ namespace KKHandy
         }
         
 
-        private bool ThrottleSpeedChgO()
-        {
-            long timestampNow = HandySyncUtils.GetTimestamp();
-            if ((timestampNow - LastSpeedChg) < DebounceSpeedChgMs)
-            {
-                return true;
-            } else
-            {
-                LastSpeedChg = timestampNow;
-                return false;
-            }
-        }
-
         private bool ThrottleSpeedChg(AnimatorStateInfo state)
         {
             if ((state.speedMultiplier - LastSpeedMulti) > SpeedChgThreshold)

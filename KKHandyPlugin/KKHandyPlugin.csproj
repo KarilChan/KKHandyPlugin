@@ -71,7 +71,6 @@
     <Compile Include="PostModels\PostModel.cs" />
     <Compile Include="PostModels\LoopPostModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="PostModels\SpeedChgPostModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
