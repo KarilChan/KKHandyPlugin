@@ -80,7 +80,8 @@ namespace KKHandy
         {
             Post(new LoopPostModel {
                 animState = hSprite.flags.nowAnimStateName,
-                stateInfo = hSprite.flags.GetLeadingHeroine().chaCtrl.getAnimatorStateInfo(0)
+                stateInfo = hSprite.flags.GetLeadingHeroine().chaCtrl.getAnimatorStateInfo(0),
+                speed = hSprite.flags.speed
             }, "loop");
         }
 

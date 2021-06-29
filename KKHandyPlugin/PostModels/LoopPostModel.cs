@@ -11,5 +11,7 @@ namespace KKHandy.PostModels
         public string animState;
 
         public AnimatorStateInfo stateInfo;
+
+        public float speed;
     }
 }

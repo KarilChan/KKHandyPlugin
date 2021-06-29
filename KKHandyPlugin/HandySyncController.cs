@@ -71,7 +71,7 @@ namespace KKHandy
 
         private bool ThrottleSpeedChg(AnimatorStateInfo state)
         {
-            if ((state.speedMultiplier - LastSpeedMulti) > SpeedChgThreshold)
+            if (Math.Abs(state.speedMultiplier - LastSpeedMulti) > SpeedChgThreshold)
             {
                 LastSpeedMulti = state.speedMultiplier;
                 return false;

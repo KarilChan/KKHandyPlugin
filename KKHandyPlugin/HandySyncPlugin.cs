@@ -18,7 +18,7 @@ namespace KKHandy
     {
         public const string PluginName = "Koikatsu Handy Sync";
         public const string GUID = "karil.handysync";
-        public const string Version = "0.9.0.0";
+        public const string Version = "0.9.0.1";
 
         private void Awake()
         {

@@ -27,6 +27,15 @@ namespace KKHandy
             {
                 GetController()?.OnSpeedChange(__instance);
             }
+
+            [HarmonyPostfix]
+            [HarmonyPatch(typeof(HFlag), nameof(HFlag.DragStart))]
+            public static void DragStart(HFlag __instance)
+            {
+                // UnityEngine.Debug.Log("Dragstart");
+                UnityEngine.Debug.Log($"{__instance.speed}");
+            }
+
         }
     }
 }
