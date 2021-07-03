@@ -8,14 +8,15 @@ This plugin sends game data to the [KK Handy server](https://github.com/KarilCha
 * [Installation](#installation)
 * [Config](#config)
 
+## Requirements
+
+* [BepInEx](https://github.com/BepInEx/BepInEx)
+* [KKAPI](https://github.com/IllusionMods/IllusionModdingAPI) >= v1.17.0
+* [RestSharp](https://github.com/restsharp/RestSharp/releases/tag/105.1.0) = v105.1.0
+
 ## Installation
 
-* (Included in BetterRepack) [BepInEx](https://github.com/BepInEx/BepInEx) >= v5.4.9
-* (Included in BetterRepack) `KKAPI.dll` >= v1.17.0
-  from [IllusionModdingAPI](https://github.com/IllusionMods/IllusionModdingAPI)
-* Get the [latest release](https://github.com/KarilChan/KKHandyPlugin/releases) of this plugin and RestSharp v105.1.0
-    * Both .dll files should be inside `YOUR_KOIKATSU_FOLDER\BepInEx\Plugins` folder
-* Set up the [KK Handy server](https://github.com/KarilChan/handy-koikatsu-server)
+* Use the installation guide [here](https://github.com/KarilChan/handy-koikatsu-server#installation)
 
 ### Config
 
